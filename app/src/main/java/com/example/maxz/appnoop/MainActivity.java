@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -21,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-       nameEditText = (EditText) findViewById(R.id.editTextName);
+        nameEditText = (EditText) findViewById(R.id.editTextName);
         passwordEditText = (EditText) findViewById(R.id.editTextPassword);
         signinButton = (Button) findViewById(R.id.btnsignin);
         singupButton = (Button) findViewById(R.id.btnsignup);
@@ -34,18 +35,12 @@ public class MainActivity extends AppCompatActivity {
 
                 if (nameString.equals("") || passwordString.equals("")) {
                     MyDialog myDialog = new MyDialog();
-                    myDialog.myAler(getApplicationContext(), "มีช่องว่าง กรุณากรอกให้ครบนะจ๊ะ","ผิดพลาด");
+                    myDialog.myAler(MainActivity.this,"มีช่องว่าง กรุณากรอกให้ครบนะจ๊ะ","ผิดพลาด");
                 }
-            }
-
-        });
-
-        singupButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
 
             }
         });
+
     }//main method
 
 //    public void cicksigninActivity(View view) {

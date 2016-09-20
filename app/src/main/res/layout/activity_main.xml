@@ -65,9 +65,9 @@
         android:layout_marginRight="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.33"
-        app:layout_constraintTop_toBottomOf="@+id/editTextPassword"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPassword"/>
 
-        android:onClick="cicksigninActivity"/>
+        <!--android:onClick="cicksigninActivity"/>-->
 
     <Button
         android:text="@string/signup"
@@ -82,8 +82,8 @@
         app:layout_constraintLeft_toLeftOf="parent"
         android:layout_marginLeft="16dp"
         app:layout_constraintHorizontal_bias="0.74"
-        app:layout_constraintTop_toBottomOf="@+id/editTextPassword"
-        android:onClick="cicksignUPActivity"/>
+        app:layout_constraintTop_toBottomOf="@+id/editTextPassword"/>
+        <!--android:onClick="cicksignUPActivity"/>-->
 
 
 </android.support.constraint.ConstraintLayout>
