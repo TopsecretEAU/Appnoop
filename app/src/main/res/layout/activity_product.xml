@@ -44,7 +44,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintHorizontal_bias="0.98"
-        app:layout_constraintVertical_bias="0.16"
+        app:layout_constraintVertical_bias="0.16000003"
         android:hint="Name Product" />
 
     <EditText
