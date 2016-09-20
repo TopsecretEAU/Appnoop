@@ -3,4 +3,5 @@
     <string name="login">Log IN</string>
     <string name="signin">SignIN</string>
     <string name="signup">SingUp</string>
+    <string name="price">ราคา</string>
 </resources>
