@@ -8,8 +8,8 @@ import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
 
-    EditText nameEditText, passwordEditText;
-    String nameString, passwordString;
+   private EditText nameEditText, passwordEditText;
+   private String nameString, passwordString;
 
 
     @Override
@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        nameEditText = (EditText) findViewById(R.id.editTextName);
+       nameEditText = (EditText) findViewById(R.id.editTextName);
         passwordEditText = (EditText) findViewById(R.id.editTextPassword);
 
 
