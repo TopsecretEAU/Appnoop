@@ -23,7 +23,7 @@ public class SignupActivity extends AppCompatActivity {
         surnameEditText = (EditText) findViewById(R.id.surname);
         passwordEditText = (EditText) findViewById(R.id.password);
         repasswordEditText = (EditText) findViewById(R.id.repassword);
-        emailEditText = (EditText) findViewById(R.id.email);
+        emailEditText = (EditText) findViewById(R.id.edemail);
     } //main method
 
     // ประกาศ class

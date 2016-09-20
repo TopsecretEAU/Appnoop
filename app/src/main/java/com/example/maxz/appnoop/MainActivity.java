@@ -1,5 +1,6 @@
 package com.example.maxz.appnoop;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -33,5 +34,9 @@ public class MainActivity extends AppCompatActivity {
             myDialog.myAler(this,"มีช่องว่าง กรุณากรอกให้ครบนะจ๊ะ","ผิดพลาด");
         }
 
+    }
+
+    public void cicksignUPActivity(View view) {
+        startActivity(new Intent(MainActivity.this,SignupActivity.class));
     }
 }//main class
