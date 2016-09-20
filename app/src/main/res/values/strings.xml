@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Appnoop</string>
+    <string name="login">Log IN</string>
+    <string name="signin">SignIN</string>
+    <string name="signup">SingUp</string>
 </resources>
