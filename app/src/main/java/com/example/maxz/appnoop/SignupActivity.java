@@ -39,14 +39,17 @@ public class SignupActivity extends AppCompatActivity {
         // Chack ช่องว่าง
         if (nameString.equals("") || surnameString.equals("") || passwordString.equals("") || repasswordString.equals("")
         || emailString.equals("")) {
-
             MyDialog myDialog = new MyDialog();
             myDialog.myAler(this, "มีช่องว่าง", "กรุณากรอบทุกช่อง");
 
+        } else if (!passwordString.equals(repasswordString)) {
+            MyDialog myDialog = new MyDialog();
+            myDialog.myAler(this ,"รหัสผ่านไม่ตรง" , "กรุณากรอกรหัสผ่าน");
+        }
         }// chack ช่องว่าง
 
 
 
 
-    }
+
 } // main class
