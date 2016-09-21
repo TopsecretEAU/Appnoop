@@ -27,33 +27,21 @@ public class MainActivity extends AppCompatActivity {
         signinButton = (Button) findViewById(R.id.btnsignin);
         singupButton = (Button) findViewById(R.id.btnsignup);
 
-        signinButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                nameString = nameEditText.getText().toString().trim();
-                passwordString = passwordEditText.getText().toString().trim();
 
-                if (nameString.equals("") || passwordString.equals("")) {
-                    MyDialog myDialog = new MyDialog();
-                    myDialog.myAler(MainActivity.this,"มีช่องว่าง กรุณากรอกให้ครบนะจ๊ะ","ผิดพลาด");
-                }
-
-            }
-        });
 
     }//main method
 
-//    public void cicksigninActivity(View view) {
-//
-//        nameString = nameEditText.getText().toString().trim();
-//        passwordString = passwordEditText.getText().toString().trim();
-//
-//        if (nameString.equals("") || passwordString.equals("")) {
-//            MyDialog myDialog = new MyDialog();
-//            myDialog.myAler(this,"มีช่องว่าง กรุณากรอกให้ครบนะจ๊ะ","ผิดพลาด");
-//        }
-//
-//    }
+    public void cicksigninActivity(View view) {
+
+        nameString = nameEditText.getText().toString().trim();
+        passwordString = passwordEditText.getText().toString().trim();
+
+        if (nameString.equals("") || passwordString.equals("")) {
+            MyDialog myDialog = new MyDialog();
+            myDialog.myAler(this,"มีช่องว่าง กรุณากรอกให้ครบนะจ๊ะ","ผิดพลาด");
+        }
+
+    }
 
     public void cicksignUPActivity(View view) {
         startActivity(new Intent(MainActivity.this,SignupActivity.class));
