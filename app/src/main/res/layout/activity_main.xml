@@ -6,7 +6,8 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.maxz.appnoop.MainActivity">
+    tools:context="com.example.maxz.appnoop.MainActivity"
+    android:background="@drawable/wallpapers_a_02">
 
 
     <TextView
@@ -23,7 +24,8 @@
         android:textStyle="normal|bold|italic"
         android:textAllCaps="false"
         android:textAlignment="center"
-        android:contentDescription="@string/common_google_play_services_updating_text" />
+        android:contentDescription="@string/common_google_play_services_updating_text"
+        android:textColor="@android:color/white" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -31,13 +33,13 @@
         android:inputType="textPersonName"
         android:ems="10"
         android:id="@+id/editTextName"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintRight_toRightOf="@+id/textView5"
-        app:layout_constraintLeft_toLeftOf="@+id/textView5"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.32999998"
         android:elevation="24dp"
-        android:hint="Name" />
+        android:hint="Name"
+        android:background="#a4020202"
+        android:textColor="@android:color/white"
+        tools:layout_editor_absoluteY="180dp"
+        tools:layout_editor_absoluteX="85dp"
+        android:textColorHint="@color/cardview_light_background" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -50,7 +52,10 @@
         app:layout_constraintLeft_toLeftOf="@+id/editTextName"
         app:layout_constraintTop_toTopOf="parent"
         android:hint="Password"
-        app:layout_constraintHorizontal_bias="0.0" />
+        app:layout_constraintHorizontal_bias="0.0"
+        android:background="#a4020202"
+        android:textColor="@android:color/white"
+        android:textColorHint="@color/cardview_light_background" />
 
     <Button
         android:text="@string/signin"
