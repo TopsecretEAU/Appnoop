@@ -18,7 +18,8 @@
         <activity android:name=".DetialActivity" />
         <activity android:name=".SignupActivity" />
         <activity android:name=".FristActivity" />
-        <activity android:name=".ProductActivity"></activity>
+        <activity android:name=".ProductActivity" />
+        <activity android:name=".Detialsell"></activity>
     </application>
 
 </manifest>
