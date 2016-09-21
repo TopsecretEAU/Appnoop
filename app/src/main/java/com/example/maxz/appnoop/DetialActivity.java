@@ -2,8 +2,11 @@ package com.example.maxz.appnoop;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.Button;
 
-public class DetialActivity extends AppCompatActivity {
+public class
+DetialActivity extends AppCompatActivity {
+    Button
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
