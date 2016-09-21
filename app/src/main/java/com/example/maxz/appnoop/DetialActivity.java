@@ -6,7 +6,7 @@ import android.widget.Button;
 
 public class
 DetialActivity extends AppCompatActivity {
-    Button
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
